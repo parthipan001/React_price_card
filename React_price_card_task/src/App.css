@@ -1,0 +1,65 @@
+.App {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #6dd5fa, #2980b9);
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.card ul li {
+  margin: 10px 0;
+}
+
+.card ul li.available {
+  color: #333;
+}
+
+.card ul li.unavailable {
+  color: #bbb;
+  text-decoration: line-through;
+}
+
+.card button {
+  background: #2980b9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.card button:hover {
+  background: #2573a6;
+}
